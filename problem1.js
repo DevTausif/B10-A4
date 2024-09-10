@@ -7,9 +7,7 @@ function calculateTax(income, expenses) {
     const amount = income - expenses;
     const tax = amount * .20;
     
-    
-    return tax;
-            
+    return tax;            
 }
 
 console.log(calculateTax(10000, 3000));
